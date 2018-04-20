@@ -7,7 +7,7 @@ Installation
 2. Install [exuberant ctags](http://ctags.sourceforge.net/) (Available from most package managers)
 3. Place *.dir-locals.el* in main castep folder
 4. Modify to your own build directory.
-5. Run `ctags -e -R Source/` to generate TAGS file
+5. Run `ctags -e -R --fortran-kinds=+i Source/` to generate TAGS file
 
 Key Bindings
 ------------
