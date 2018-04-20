@@ -14,7 +14,7 @@ Key Bindings
 In users main emacs file (~/.emacs normally)
 
     (global-set-key (kbd "<f7>") 'flycheck-previous-error)
-    (global-set-key (kbd "<f8>") 'flycheck-next-error)```
+    (global-set-key (kbd "<f8>") 'flycheck-next-error)
 
 Known Issues
 ------------
