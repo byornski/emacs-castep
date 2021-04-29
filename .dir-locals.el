@@ -22,7 +22,7 @@
 	      (eval . (setq flycheck-checker-error-threshold 1000))
 	      ;;; Add build path to include directory for inter-module checking
 	      (eval . (setq flycheck-gfortran-include-path
-			    (list (concat my-project-path "obj/linux_x86_64_gfortran7.0")))) 
+			    (list (concat my-project-path "obj/linux_x86_64_gfortran--serial/build")))) 
 	      
 	      
 	      ;;; Tags file stuff
